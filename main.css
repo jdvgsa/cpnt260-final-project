@@ -5,6 +5,7 @@ body {
   background: antiquewhite;
   text-align: center;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 nav ul {
@@ -36,18 +37,18 @@ article {
   padding: 20px;
 }
 
-.card-container {
+/* .card-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-}
+} */
 
-.card {
+/* .card {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
   width: 30%;
-}
+} */
 
 .video-container {
     display: flex;

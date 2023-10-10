@@ -17,7 +17,7 @@ nav a {
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   padding: 1rem;
   text-align: center;
   width: 30%;
@@ -27,7 +27,7 @@ nav a {
 }
 
 .card {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   padding: 10px;
   text-align: center;
   width: 30%;
