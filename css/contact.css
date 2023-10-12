@@ -1,31 +1,16 @@
 /* Fallback Styles */
 
 body {
-
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color:antiquewhite;
   overflow-x: hidden;
 
 }
-
-/* NAV Styling */
-
-nav a {
-
-  text-decoration: underline;
-  color:whitesmoke;
-
-}
-
-nav a:hover {
-
-  color: red;
-
-}
-
+  
+/* Header and Nav Styling */
 
 nav ul {
-
   display: flex;
   justify-content: space-evenly;
   background-color: transparent;
@@ -33,15 +18,27 @@ nav ul {
 
 }
 
+nav a {
+  text-decoration: underline;
+  color:black;
+
+  }
+
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
 
 header {
-
-  background-color: black;
-  color: whitesmoke;
+  background-color: transparent;
+  color: black;
   text-align: center;
-  padding: 0.5em;
+  padding: 2rem;
 
 }
+
 
 
 /* Sample Contact Form Styling */
@@ -106,8 +103,8 @@ input[type="submit"]:hover {
 
 footer {
 
-  background-color: black;
-  color: whitesmoke;
+  background-color: antiquewhite;
+  color: black;
   text-align: center;
   position: sticky;
   padding: 0.5rem;
