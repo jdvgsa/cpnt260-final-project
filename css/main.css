@@ -23,6 +23,10 @@ nav a {
 
 }
 
+nav a:hover {
+  color: red;
+}
+
 
 
 header {
@@ -94,6 +98,18 @@ footer {
   width: 100%;
   
 }
+
+.doormat {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  padding: .5rem;
+}
+
+
+
+/* MOBILE VIEW */
 
 @media (max-width: 40rem) {
  body { max-width: fit-content;

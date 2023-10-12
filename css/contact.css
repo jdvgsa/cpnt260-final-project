@@ -10,6 +10,11 @@ nav a {
 
 }
 
+nav a:hover {
+  color: red;
+}
+
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -79,4 +84,12 @@ footer {
   padding: 0.5rem;
   width: 100%;
   
+}
+
+.doormat {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  padding: .5rem;
 }
