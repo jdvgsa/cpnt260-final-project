@@ -31,7 +31,7 @@ a:hover {
 
 
 header {
-  background-color: rgba(0, 0, 0, 0.959);
+  background-color: black;
   color: whitesmoke;
   text-align: center;
   padding: 0.5em;
@@ -46,14 +46,14 @@ header {
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 1.5rem; 
   padding: 1rem;
-  color: black;
+  /* color: black; */
 }
 
 .gallery-pic {
   width: 100%;
   overflow: hidden;
   border-radius: 16px;
-  color: black;
+  /* color: black; */
   text-decoration: none;
   }
 
@@ -61,7 +61,7 @@ header {
   width: 100%;
   height: 50vh;
   display: block;
-  color:black;
+  /* color:black; */
 }
 
 
