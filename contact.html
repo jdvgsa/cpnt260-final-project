@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <link rel="reset" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/contact.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Form</title>
+  </head>
+  <header>
+    <h1>BP Snowboarding</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Booking</a></li>
 
-  <nav>
-    <ul class="navHover1">
-      <li><a href="index.html">Blog</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Booking</a></li>
-
-    </ul>
-  </nav>
-
-  <footer>
-    <p>&copy; 2023 John Dagsa. All rights reserved.</p>
-</footer>
+      </ul>
+    </nav>
+  </header>
   
+  <body>
+    <div class="contact-form">
+        <h2>Schedule An Appointment!</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="phone" id="phone" name="phone" required>
+
+            <label for="message">Any details you'd like to add:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 John Dagsa. All rights reserved.</p>
+      </footer>
 </body>
 </html>

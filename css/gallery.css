@@ -16,7 +16,17 @@ nav ul {
 
 nav a {
   text-decoration: underline;
-  color:rgba(5, 0, 0, 0.877);
+  color:whitesmoke;
+
+}
+
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.5em;
 }
 
 
