@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  padding: .5rem;
+  background: antiquewhite;
+  text-align: center;
+  overflow-x: hidden;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  list-style: none;
+
+}
+
+nav a {
+  text-decoration: underline;
+  color:whitesmoke;
+
+}
+
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.5em;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.video-container {
+    display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  position: sticky;
+  padding: 0.5rem;
+  width: 100%;
+  
+}
+
+/* mobile view, nav, etc */
+
+/* @media (width < 40rem) {
+
+} */
