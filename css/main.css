@@ -1,3 +1,5 @@
+/* General Styling / Layout */
+
 body {
   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,6 +10,8 @@ body {
   overflow-x: hidden;
   
 }
+
+/*Navigation Styling  */
 
 nav ul {
   display: flex;
@@ -27,7 +31,7 @@ nav a:hover {
   color: red;
 }
 
-
+/* Top of the site styling */
 
 header {
   background-color: rgba(0, 0, 0, 0.959);
@@ -36,18 +40,27 @@ header {
   padding: 0.5em;
 }
 
+/* Text Spacing */
+
 article {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 50rem;
+  margin: auto;
+  padding: 2rem;
 }
 
+/* Youtube Video */
 
 .video-container {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 
+.video-h3 {
+  display: inline-block;
+  max-width: 55ch;
+}
+
+/* clickable review cards */
 
 .cards {
   display: flex;
@@ -59,11 +72,12 @@ article {
   background-color: rebeccapurple;
   border: 3px solid black;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50rem;
-  padding: 20px;
-  margin: 10px;
+  padding: 1.5rem;
+  margin: .5rem;
 }
+
+/* Card Text */
 
 .user-info {
   display: flex;
@@ -80,13 +94,7 @@ article {
   font: 1em;
 }
 
-
-.video-h3 {
-  display: inline-block;
-  max-width: 55ch;
-}
-
-
+/* Footer Styling & Doormat Nav */
 
 footer {
   padding-top: 2rem;
@@ -106,8 +114,6 @@ footer {
   margin: auto;
   padding: .5rem;
 }
-
-
 
 /* MOBILE VIEW */
 
